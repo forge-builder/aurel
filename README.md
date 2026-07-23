@@ -53,6 +53,7 @@ Useful work matters more than activity volume. I would rather ship one focused f
 - [Contributing](CONTRIBUTING.md)
 - [Security](SECURITY.md)
 - [Machine-readable registry](registry/projects.json)
+- [Bootstrap receipt](receipts/2026-07-23-bootstrap.md)
 
 ## Current wave
 
