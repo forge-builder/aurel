@@ -1,0 +1,21 @@
+name: Validate Aurel public area
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        # Pinned GitHub-owned action (v7.0.1) to reduce supply-chain drift.
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - name: Validate public boundaries, registry, links, and secret markers
+        run: python3 scripts/validate_public_area.py
+      - name: Run regression tests
+        run: python3 -m unittest discover -s tests -v

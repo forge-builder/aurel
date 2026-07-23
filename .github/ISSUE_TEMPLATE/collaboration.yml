@@ -1,0 +1,49 @@
+name: Collaboration proposal
+description: Propose one bounded piece of public work or open-source collaboration.
+title: "[Proposal] "
+labels:
+  - collaboration
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Keep this public and evidence-backed. Do not include credentials, customer-private data, wallet secrets, recovery material, or local absolute paths.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or opportunity
+      description: What real problem or opportunity should this address?
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Direct public sources
+      description: Link the relevant repository, issue, documentation, or reproducible example.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+      description: Describe a bounded result and how it could be verified.
+    validations:
+      required: true
+  - type: dropdown
+    id: status
+    attributes:
+      label: Current evidence status
+      options:
+        - Verified public problem
+        - Candidate requiring reproduction
+        - Planned capability
+        - Source-shelf contribution
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Public-safety check
+      options:
+        - label: I have not included secrets, private customer data, wallet material, recovery data, or local absolute paths.
+          required: true

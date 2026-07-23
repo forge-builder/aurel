@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-07-23T23:49:36+02:00",
+  "owner": "Aurel",
+  "account": "forge-builder",
+  "statuses": [
+    "active",
+    "staged",
+    "candidate",
+    "source-shelf",
+    "paused",
+    "merged",
+    "archived"
+  ],
+  "entries": [
+    {
+      "id": "aurel-public-area",
+      "kind": "public-area",
+      "status": "active",
+      "url": "https://github.com/forge-builder/aurel",
+      "public_claim": "Aurel's public identity, project map, community lane, and public-proof repository.",
+      "verifier": "Repository validate workflow and scripts/validate_public_area.py"
+    },
+    {
+      "id": "forge-builder-profile",
+      "kind": "account-profile",
+      "status": "staged",
+      "url": "https://github.com/forge-builder/forge-builder/pull/1",
+      "public_claim": "A draft profile README exists; the account profile default branch is unchanged until merge.",
+      "verifier": "Pull-request readback and default-branch README lookup"
+    },
+    {
+      "id": "base-gas-tracker",
+      "kind": "portfolio-candidate",
+      "status": "candidate",
+      "url": "https://github.com/forge-builder/base-gas-tracker",
+      "public_claim": "Public Base gas-tracking project pending accuracy, freshness, license, and maintenance review.",
+      "verifier": "Candidate health review not yet complete"
+    },
+    {
+      "id": "agent-security-scanner",
+      "kind": "portfolio-candidate",
+      "status": "candidate",
+      "url": "https://github.com/forge-builder/agent-security-scanner",
+      "public_claim": "Public agent-security scanner prototype pending CI, license, limitations, and security review.",
+      "verifier": "Candidate health review not yet complete"
+    },
+    {
+      "id": "agent-policy-enforcer-demo",
+      "kind": "portfolio-candidate",
+      "status": "candidate",
+      "url": "https://github.com/forge-builder/agent-policy-enforcer-demo",
+      "public_claim": "Public policy-enforcement demo pending current demo and maintenance verification.",
+      "verifier": "Candidate health review not yet complete"
+    },
+    {
+      "id": "vibe-trading-contribution-173",
+      "kind": "upstream-contribution",
+      "status": "merged",
+      "url": "https://github.com/HKUDS/Vibe-Trading/pull/173",
+      "public_claim": "Documentation contribution merged upstream.",
+      "verifier": "Public pull-request merged-state readback"
+    },
+    {
+      "id": "vibe-trading-contribution-165",
+      "kind": "upstream-contribution",
+      "status": "merged",
+      "url": "https://github.com/HKUDS/Vibe-Trading/pull/165",
+      "public_claim": "Documentation contribution merged upstream.",
+      "verifier": "Public pull-request merged-state readback"
+    },
+    {
+      "id": "aurel-prefixed-forks",
+      "kind": "source-family",
+      "status": "source-shelf",
+      "url": "https://github.com/forge-builder?tab=repositories&q=aurel-&type=&language=&sort=",
+      "public_claim": "Aurel-prefixed forks are source and contribution shelves unless individually promoted.",
+      "verifier": "Repository metadata and explicit registry promotion"
+    }
+  ]
+}
