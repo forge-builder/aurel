@@ -21,6 +21,7 @@ REQUIRED_FILES = {
     "CONTRIBUTING.md",
     "LICENSE",
     "registry/projects.json",
+    "receipts/2026-07-23-bootstrap.md",
     "scripts/validate_public_area.py",
     "tests/test_public_area.py",
     ".github/workflows/validate.yml",
